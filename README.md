@@ -1,48 +1,69 @@
 # 🌑 ShadowBloom
 
-ShadowBloom foi meu primeiro projeto pessoal desenvolvido com HTML, CSS e JavaScript.
+> Primeiro projeto pessoal desenvolvido com HTML, CSS e JavaScript.
 
-A ideia nasceu da reflexão sobre crescimento pessoal, autoconhecimento e evolução silenciosa. O projeto transmite a mensagem de que grandes transformações acontecem longe dos holofotes, durante os momentos de silêncio, reflexão e reconstrução.
+## 📖 Sobre o Projeto
+
+ShadowBloom nasceu da reflexão sobre crescimento pessoal, autoconhecimento e evolução silenciosa.
+
+A proposta é transmitir a ideia de que grandes transformações acontecem longe dos holofotes, durante momentos de silêncio, aprendizado e reconstrução.
 
 Mais do que uma página web, ShadowBloom representa o processo de crescer nas sombras antes de florescer.
 
-## ✨ O que o projeto possui
+---
 
-- Animações de entrada dos elementos
-- Efeito Glassmorphism
-- Efeito 3D interativo no card
-- Destaques visuais com CSS
-- Responsividade
-- Manipulação do DOM com JavaScript
+## 🌱 Minha Jornada
 
-## 🎯 Objetivo
+Este projeto marca o início da minha jornada prática no desenvolvimento Front-End.
 
-Praticar HTML, CSS e JavaScript criando algo além de uma simples página estática, explorando animações, efeitos visuais e interação com o usuário.
+Foi a primeira vez que transformei uma ideia própria em uma experiência visual utilizando HTML, CSS e JavaScript, explorando não apenas a estrutura da página, mas também animações, interatividade e efeitos visuais.
+
+---
+
+## ✨ Funcionalidades
+
+* Animações de entrada dos elementos
+* Efeito Glassmorphism
+* Efeito 3D interativo no card
+* Destaques visuais com CSS
+* Responsividade para dispositivos móveis
+* Manipulação do DOM com JavaScript
+* Efeito de iluminação dinâmica baseado no cursor
+
+---
+
+## 🎯 Inspiração
+
+A mensagem central do projeto é simples:
+
+> Algumas das transformações mais importantes da vida acontecem quando ninguém está olhando.
+
+---
+
+## 📸 Preview
+
+![ShadowBloom](assets/imagem/Shadowbloom-page.png)
+
+---
 
 ## 🚀 Projeto Online
 
 🔗 https://lauanoliveira.github.io/ShadowBloom/
 
+---
+
 ## 🛠️ Tecnologias
 
-- HTML5
-- CSS3
-- JavaScript
+* HTML5
+* CSS3
+* JavaScript
 
-## 📸 Preview
-
-<img src="./assets/imagem/Shadowbloom-page.png" width="900">
-
-
-## 🌱 Primeiro Projeto
-
-ShadowBloom marca o início da minha jornada prática no desenvolvimento Front-End.
-
-Foi o primeiro projeto em que transformei uma ideia própria em uma experiência visual utilizando HTML, CSS e JavaScript.
-
+---
 
 ## 👨‍💻 Autor
 
-Lauan Oliveira
+**Lauan Oliveira**
 
 Desenvolvedor Front-End em aprendizado contínuo.
+
+*"Antes de florescer, toda raiz cresce na sombra."*
