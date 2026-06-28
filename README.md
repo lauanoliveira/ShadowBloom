@@ -31,7 +31,7 @@ Praticar HTML, CSS e JavaScript criando algo além de uma simples página estát
 
 ## 📸 Preview
 
-<img src="style.css/Shadowbloom-page.png" width="900">
+<img src="./assets/imagem/Shadowbloom-page.png" width="900">
 
 
 ## 🌱 Primeiro Projeto
