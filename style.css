@@ -1,0 +1,350 @@
+/* RESET BÁSICO */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* BODY */
+body {
+  min-height: 100vh;
+  background-image: url('https://freerangestock.com/sample/100033/flower-blossoming-in-darkness.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   background-attachment: fixed;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  position: relative;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+/* CAMADA ESCURA */
+body::before {
+  content: "";
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%; /* garante que cobre todo o conteúdo */
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 0;
+  animation: respirar 6s ease-in-out infinite;
+}
+
+@keyframes respirar {
+  0%, 100% {
+    opacity: 0.7;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}
+
+/* GARANTE CONTEÚDO NA FRENTE */
+body * {
+  position: relative;
+  z-index: 1;
+}
+
+/* CARD */
+.card {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  margin: 40px auto;
+  width: 90%;
+  max-width: 700px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(190, 161, 218, 0.205);
+
+  
+}
+
+
+/* TEXTOS */
+h1 {
+  font-size: 40px;
+  margin-top: 50px;
+   letter-spacing: 4px;
+     text-shadow: 0 0 20px rgba(201, 148, 151, 0.4);
+
+
+}
+main {
+  margin-top: 1px;
+  display: flex;
+   justify-content: center; /* centraliza horizontal */
+  align-items: center;     /* centraliza vertical */
+  flex: 1; /* faz o main ocupar o espaço restante */
+ 
+}
+
+h2 {
+  font-size: 24px;
+   margin-bottom: 15px;
+}
+
+p {
+  max-width: 600px;
+  margin: 20px auto;
+  margin-bottom: 15px;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+/* LISTA */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  margin-bottom: 15px;
+}
+
+li {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+/* IMAGEM */
+img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/* LINK */
+a {
+  color: #ff69b4;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: rgb(43, 1, 1);
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+  opacity: 0.7;
+  
+  
+}
+
+@keyframes aparecer {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.card {
+  backdrop-filter: blur(10px);
+  background: rgba(0, 0, 0, 0.03);
+  backdrop-filter: blur(8px);
+ border: 1px solid rgba(201, 148, 148, 0.15);
+ 
+  
+}
+
+
+
+.botao{
+
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4b0c2b;
+  color: rgb(0, 0, 0);
+  border-radius: 8px;
+  margin-top: 20px;
+  transition: 0.3s;
+  cursor: pointer;
+
+}
+
+.botao:hover {
+  background-color: #661e41;
+  transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+
+  h1 {
+    font-size: 40px;
+    
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .card {
+    width: 95%;
+    padding: 15px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
+.conteudo {
+  width: 100%;
+  display: block;
+  justify-content: center;
+}
+
+h1::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 3px;
+  background: #ad94c9;
+  margin: 10px auto;
+  border-radius: 10px;
+  transform: scaleX(0);
+  opacity: 0;
+}
+h1::after {
+  animation: linhaJunto 7s ease forwards;
+}
+@keyframes linhaJunto {
+  from {
+    transform: scaleX(0);
+    opacity: 0;
+  }
+  to {
+    transform: scaleX(1);
+    opacity: 1;
+  }
+}
+
+.titulo span {
+  opacity: 0;
+  color: #000;
+  animation: aparecerLetra 0.5s forwards;
+}
+
+
+.titulo span:nth-child(1) { animation-delay: 0.05s; }
+.titulo span:nth-child(2) { animation-delay: 0.1s; }
+.titulo span:nth-child(3) { animation-delay: 0.15s; }
+.titulo span:nth-child(4) { animation-delay: 0.2s; }
+.titulo span:nth-child(5) { animation-delay: 0.4s; }
+.titulo span:nth-child(6) { animation-delay: 0.5s; }
+.titulo span:nth-child(7) { animation-delay: 0.6s; }
+.titulo span:nth-child(8) { animation-delay: 0.7s; }
+.titulo span:nth-child(9) { animation-delay: 0.8s; }
+.titulo span:nth-child(10) { animation-delay: 0.9s; }
+.titulo span:nth-child(11) { animation-delay: 1s; }
+.titulo span:nth-child(12) { animation-delay: 1.1s; }
+.titulo span:nth-child(13) { animation-delay: 1.2s; }
+.titulo span:nth-child(14) { animation-delay: 1.3s; }
+.titulo span:nth-child(15) { animation-delay: 1.4s; }
+.titulo span:nth-child(16) { animation-delay: 1.5s; }
+.titulo span:nth-child(17) { animation-delay: 1.6s; }
+.titulo span:nth-child(18) { animation-delay: 1.7s; }
+.titulo span:nth-child(19) { animation-delay: 1.8s; }
+
+/* animação */
+@keyframes aparecerLetra {
+  to {
+    opacity: 1;
+    color: #000000;
+    text-shadow: 0 0 10px rgb(235, 186, 186);
+    
+  }
+}
+
+footer {
+  margin-top: 40px;
+  padding: 20px;
+  text-align: center;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: 0.9s ease;
+}
+
+.reveal.ativo {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+.lista {
+  list-style: none;
+  padding: 0;
+}
+
+.lista li {
+  margin: 14px 0;
+  font-size: 18px;
+  transition: 0.3s;
+  position:relative
+  
+
+}
+
+/* hover suave */
+.lista li:hover {
+  transform: translateX(6px);
+  color: #d8b4ff;
+}
+
+.destaque {
+  color: #ad94c9;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.destaque:hover {
+  text-shadow: 0 0 8px #9c94c9;
+}
+
+.card p {
+  line-height: 1.7;
+  color: #cfcfcf;
+}
+
+.lista li::before {
+  content: "";
+  position: absolute;
+  left: -15px;
+  top: 50%;
+  width: 6px;
+  height: 6px;
+  background: #ad94c9a2;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  box-shadow: 0 0 8px #ad94c9cc;
+  animation: glow 3s ease-in-out infinite;
+}
+
+.lista li.respirar {
+  animation: respirar 4s ease-in-out infinite;
+}
+
+.card {
+  transform-style: preserve-3d;
+  transition: transform 0.4s ease;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at var(--x) var(--y), rgba(255, 255, 255, 0.068), transparent 50%);
+  pointer-events: none;
+}
