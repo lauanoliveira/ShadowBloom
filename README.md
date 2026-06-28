@@ -1,8 +1,10 @@
 # 🌑 ShadowBloom
 
-Primeiro projeto pessoal desenvolvido com HTML, CSS e JavaScript.
+ShadowBloom foi meu primeiro projeto pessoal desenvolvido com HTML, CSS e JavaScript.
 
-ShadowBloom nasceu como uma reflexão sobre crescimento pessoal, autoconhecimento e evolução silenciosa. A proposta do projeto é mostrar que nem todo crescimento acontece sob os holofotes; muitas vezes as maiores transformações acontecem nas sombras.
+A ideia nasceu da reflexão sobre crescimento pessoal, autoconhecimento e evolução silenciosa. O projeto transmite a mensagem de que grandes transformações acontecem longe dos holofotes, durante os momentos de silêncio, reflexão e reconstrução.
+
+Mais do que uma página web, ShadowBloom representa o processo de crescer nas sombras antes de florescer.
 
 ## ✨ O que o projeto possui
 
@@ -27,6 +29,16 @@ Praticar HTML, CSS e JavaScript criando algo além de uma simples página estát
 - CSS3
 - JavaScript
 
+
+## 🌱 Primeiro Projeto
+
+ShadowBloom marca o início da minha jornada prática no desenvolvimento Front-End.
+
+Foi o primeiro projeto em que transformei uma ideia própria em uma experiência visual utilizando HTML, CSS e JavaScript.
+
+
 ## 👨‍💻 Autor
 
 Lauan Oliveira
+
+Desenvolvedor Front-End em aprendizado contínuo.
